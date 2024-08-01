@@ -13,7 +13,6 @@ h1{
     font-family: sans-serif;
     padding-top: 20px;
 }
-.intro{}
 .header{
     display: flex;
     justify-content: center;
@@ -138,10 +137,6 @@ spam{
         border: 1px #333 solid;
         border-radius: 10px;        
     }
-    #lasagna-link, #rice-link, #chicken-link{
-        /* padding-left: 0; */
-        /* margin-top: 10px; */
-    }
     .food{
         font-size: 24px;
     }
@@ -206,7 +201,6 @@ spam{
         font-weight: thin;
         font-family: sans-serif;
     }
-}
 @media (max-width: 768px){
 
 }
