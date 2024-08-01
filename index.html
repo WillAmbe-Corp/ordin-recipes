@@ -4,15 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ordin Recipe</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <p>Welcome to the Odin Recipe where you can find recipes on many delicious meals of your choice</p>
-    <p>Find below some of our most requested menus</p>
-    <ul>
-        <li><a href="./recipes/lasagna.html">Lasagna Recipe</a></li>
-        <li><a href="recipes/fried-rice.html" target="_blank">Fried Rice Recipe</a></li>
-        <li><a href="recipes/crispy-chicken.html" target="_blank">Crispy Chicken Recipe</a></li>
-    </ul>
+    <div class="intro">
+        <div class="header">
+            <img id="recipe-image" src="./recipes/images/recipe.png" width="150px" height="150px" alt="">
+            <h1 class="main-title">Odin Recipes</h1>
+        </div>
+        <div class="animate">
+            <spam>Welcome to the Odin Recipe where you can find recipes on many delicious meals of your choice. Find below some of our most requested menus</spam>
+            <spam>Welcome to the Odin Recipe where you can find recipes on many delicious meals of your choice. Find below some of our most requested menus</spam>
+            <spam>Welcome to the Odin Recipe where you can find recipes on many delicious meals of your choice. Find below some of our most requested menus</spam>
+        </div>
+    </div>
+    <div class="recipe">
+        <div id="lasagna">
+            <img id="lasagna-image" src="./recipes/images/lasagna1.webp" alt="lasagna">
+            <a id="lasagna-link" href="./recipes/lasagna.html" target="_blank">
+                <strong class="food">Simple homemade lasagna</strong><br> <br>
+                <p class="ingr">Ingredients: 1 can crushed tomatoes, 2 tablespoons chopped fresh parsley, 2 teaspoon salt, 1 package shredded mozzarella, 1 clover garlic, 3 large eggs...</p></a>
+        </div>
+        <div id="rice">
+            <img id="rice-image" src="./recipes/images/chinese-rice.webp" alt="rice">
+            <a id="chicken-link" href="recipes/fried-rice.html" target="_blank">
+                <strong class="food">Chinese Fried Rice</strong><br> <br>
+                <p class="ingr">Ingredients: 2 tablespoons vegetable oil, 1 clove garlic, minced, orto taste (Optional), 3 cups leftover cooked and chilled white rice, 1 tablespoon siy sauce, or more to taste, 2 teaspoons sesame oil, to tatse...</p></a>
+        </div>
+        <div id="Chicken">
+            <img id="chicken-image" src="./recipes/images/crispyChicken.webp" alt="chicken">
+            <a id="chicken-link" href="recipes/crispy-chicken.html" target="_blank">
+                <strong class="food">crispy-chicken</strong><br> <br>
+                <p class="ingr">Ingredients: 1 (4 pound) chicken, cut into pieces, 1 cup buttermilk, 2 cups all-purpose flour for coating, 1 teaspoon paprika, salt and pepper to taste...</p></a>
+        </div>
+    </div>
 </body>
 </html>
